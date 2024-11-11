@@ -65,22 +65,23 @@ h2 {
 }
 
 .katta_kilyonkalar_div {
-    display: grid;
-    grid-gap: 30px;
-    grid-area: 30px;
+    max-width: 1335px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
 }
 
 .kilyonkalar_div {
-    width: 303.75px;
+    width: 300px;
     height: 400px;
     border: 1px solid black;
     border-radius: 20px;
 }
 
 .img1 {
-    width: 303.75px;
+    width: 300px;
     height: auto;
     border-radius: 20px 20px 0 0;
 }
