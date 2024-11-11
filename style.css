@@ -73,8 +73,14 @@ h2 {
 }
 
 .kilyonkalar_div {
-    width: 303,75px;
+    width: 303.75px;
     height: 400px;
     border: 1px solid black;
     border-radius: 20px;
+}
+
+.img1 {
+    width: 303.75px;
+    height: auto;
+    border-radius: 20px 20px 0 0;
 }
